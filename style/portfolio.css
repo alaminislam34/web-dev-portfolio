@@ -1,5 +1,5 @@
 
-.open-sans-title{
+.open-sans-normal{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -7,7 +7,10 @@
     "wdth" 100;
 }
 /* shared style */
-.extra{
+.secondary-bg{
+    color: #fff8f3;
+}
+.text-primary{
     color: #FD6E0A;
 }
 .btn-primary{
@@ -26,12 +29,20 @@
     font-size: 20px;
 }
 /* text-primary */
-.text-primary{
+.nav-title{
     font-weight: 800;
     font-size: 45px;
 }
 /* nav style */
-
+.nav-title{
+    color: black;
+}
+.banner-title{
+    color: black;
+}
+.banner-description{
+    color: black;
+}
 nav ul{
     list-style: none;
     display: flex;
