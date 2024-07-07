@@ -10,8 +10,9 @@
 .extra{
     color: #FD6E0A;
 }
-.btn{
+.btn-primary{
     background-color: #FD6E0A;
+    color: white;
     font-size: 20px;
     font-weight: bold;
     padding: 18px 35px;
@@ -45,4 +46,35 @@ nav{
 nav ul li{
     text-decoration: none;
     margin-right: 50px;
+}
+
+/* header */
+
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin: 38px 0 25px 10px;
+}
+
+/* banner */
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 550px;
+}
+.banner-content-pic{
+    max-width: 500px;
 }
