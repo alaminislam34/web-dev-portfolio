@@ -85,7 +85,7 @@ nav ul li{
 .header {
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat, no-repeat;
-    background-position: top left, bottom right;
+    background-position: top 38px left 30px, bottom right;
 }
 
 
@@ -105,7 +105,7 @@ nav ul li{
     margin: 0 35px 0 200px;
 }
 .banner-content{
-    max-width: 550px;
+    max-width: 580px;
 }
 .banner-content-pic{
     max-width: 500px;
@@ -114,7 +114,7 @@ nav ul li{
 /* main styles */
 
 main{
-    max-width: 1000px;
+    max-width: 1140px;
     margin: 0px auto;
 }
 main section{
@@ -188,4 +188,13 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     display: block;
     width: 100%;
     color: black;
+}
+footer .section-title{
+    margin-bottom: 20px;
+}
+footer p{
+    margin-bottom: 20px;
+}
+.footer-column a{
+    margin-right: 10px;
 }
