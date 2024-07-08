@@ -187,4 +187,5 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     font-size: 18px;
     display: block;
     width: 100%;
+    color: black;
 }
