@@ -218,9 +218,6 @@ footer p{
 
 /* Responsive style */
 
-.hide{
-    display: none;
-}
 
 @media screen and (max-width: 576px) {
     .skills-container,
@@ -273,3 +270,17 @@ footer p{
         padding-bottom: 15px;
     }
 }
+
+@media screen and (min-width: 576px) and (max-width: 990px) {
+        .banner{
+            flex-direction: column;
+        }
+        .skills-container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        nav{
+            margin: auto
+        }
+}
+   
