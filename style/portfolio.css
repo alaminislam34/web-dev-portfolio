@@ -266,4 +266,10 @@ footer p{
         padding: 10px;
         background-image: none;
     }
+    .btn-primary{
+        margin-bottom: 10px;
+    }
+    .banner-description{
+        padding-bottom: 15px;
+    }
 }
