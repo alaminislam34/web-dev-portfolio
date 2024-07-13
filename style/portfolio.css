@@ -255,7 +255,7 @@ footer p{
         margin: 0;
     }
     nav ul {
-        flex-direction: column;
+        /* flex-direction: column; */
         padding: 0%;
     }
     nav ul li {
