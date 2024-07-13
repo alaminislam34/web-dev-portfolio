@@ -223,7 +223,11 @@ footer p{
 }
 
 @media screen and (max-width: 576px) {
-    .skills-container, .resume-container, footer{
+    .skills-container,
+     .resume-container,
+      footer
+      
+      {
         flex-direction: column;
         margin: 0 20px;
     }
@@ -238,5 +242,28 @@ footer p{
     }
     .about .section-description{
         padding-bottom: 10px;
+    }
+    .banner{
+        margin: 10px;
+        flex-direction: column;
+    }
+    .banner-content-pic{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+        margin: 0;
+    }
+    nav ul {
+        flex-direction: column;
+        padding: 0%;
+    }
+    nav ul li {
+        margin: 5px;
+    }
+    .header{
+        position: static;
+        padding: 10px;
+        background-image: none;
     }
 }
