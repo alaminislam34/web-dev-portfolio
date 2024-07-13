@@ -124,8 +124,14 @@ main section{
 /* about styles */
 .about{
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 100px;
     text-align: center;
+}
+.about .section-description{
+    padding-bottom: 10px;
+}
+.about .section-title{
+    padding-bottom: 20px;
 }
 .about-items{
     display: flex;
@@ -140,12 +146,19 @@ main section{
     display: flex;
     gap: 24px;
 }
+.skills{
+    padding: 20px;
+}
 .skill{
-    padding: 30px 33px;
-    border-radius: 5px;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 20px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 /* resume section style */
+.resume{
+    padding: 20px;
+}
 .resume-container{
     display: flex;
     gap: 50px;
@@ -174,11 +187,12 @@ main section{
 /* footer styles */
 footer{
     display: flex;
-    gap: 25px;
-    padding: 130px 230px;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 100px 100px;
 }
 footer input[type="text"], footer input[type="email"], footer textarea{
-    height: 64px;
+    height: 50px;
     border: none;
     margin-bottom: 24px;
     color: white;
@@ -186,15 +200,43 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     padding: 10px 20px;
     font-size: 18px;
     display: block;
-    width: 100%;
+    width: 90%;
     color: black;
 }
-footer .section-title{
+/* footer .section-title{
     margin-bottom: 20px;
-}
+} */
 footer p{
     margin-bottom: 20px;
 }
+.footer-column{
+    width: 50%;
+}
 .footer-column a{
     margin-right: 10px;
+}
+
+/* Responsive style */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skills-container, .resume-container, footer{
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    .skill{
+        margin-top: 10px;
+    }
+    footer{
+        padding: 20px;
+    }
+    .about{
+        padding: 20px;
+    }
+    .about .section-description{
+        padding-bottom: 10px;
+    }
 }
